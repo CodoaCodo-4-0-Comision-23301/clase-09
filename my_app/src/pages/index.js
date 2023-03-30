@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Button from '@/components/button';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <main className='container'>
         <div id='titulo'>Usando Framework</div>
+        <Button></Button>
       </main>
     </>
   )
